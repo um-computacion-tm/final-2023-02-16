@@ -11,7 +11,7 @@ class MyTest(unittest.TestCase):
     def setUp(self):
         self.fecha1 = Fecha(2022, 3, 14)
         self.fecha2 = Fecha(2024, 6, 1)
-        self.fecha3 = Fecha()
+        self.fecha3 = Fecha() # hoy
         self.fecha4 = Fecha(1995, 11, 11)
         self.persona1 = Persona(5, 'Perez', self.fecha1)
         self.persona2 = Persona(2, 'Gomez', self.fecha2)
